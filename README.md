@@ -12,11 +12,11 @@
 
 ### User Model:
 
-{
-    **url** : targetURL
-    **timeStamp** : Date
-    **deviceType** : Type of device (eg: Desktop, Tablet, Mobile)
-    **country** : Country of the User
+{<br>
+    **url** : targetURL<br>
+    **timeStamp** : Date<br>
+    **deviceType** : Type of device (eg: Desktop, Tablet, Mobile)<br>
+    **country** : Country of the User<br>
 }
 
 ### Setup:
@@ -27,6 +27,11 @@ Database:
     ```
     mongoURI = <your mongo uri>
     ```
-2. ```yarn``` to install all the dependencies (if yarn is not available use npm install).
-3. ```yarn dev``` (or ```npm run dev```) to run the development server.
-4. Access **localhost:5000/<your endpoint>** to create the necessary API requests.
+Server:
+
+2. ```
+    git clone https://github.com/4molybdenum2/listnr-analytics-challenge.git
+    ```
+3. ```yarn``` to install all the dependencies (if yarn is not available use npm install).
+4. ```yarn dev``` (or ```npm run dev```) to run the development server.
+5. Access **localhost:5000/<your endpoint>** to create the necessary API requests.
