@@ -16,7 +16,7 @@
     **url** : targetURL<br>
     **timeStamp** : Date<br>
     **deviceType** : Type of device (eg: Desktop, Tablet, Mobile)<br>
-    **country** : Country of the User<br>
+    **country** : Country of the User (Represented as Country Code) <br>
 }
 
 ### Setup:
