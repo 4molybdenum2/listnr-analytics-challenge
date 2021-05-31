@@ -10,6 +10,15 @@
 
 *Date* must be of the form DDMMYY (eg: 05062021 )
 
+### User Model:
+
+{
+    **url** : targetURL
+    **timeStamp** : Date
+    **deviceType** : Type of device (eg: Desktop, Tablet, Mobile)
+    **country** : Country of the User
+}
+
 ### Setup:
 
 Database:
